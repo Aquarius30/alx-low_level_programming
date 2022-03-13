@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  *bonus. printf task
+ *
  * Return 1 after succesful execution
  */
 int main(void)
