@@ -16,7 +16,6 @@ for (lowercase = 'A'; lowercase <= 'Z'; lowercase++)
 {
 putchar(lowercase);
 }
-putchar('\n');
-	
+putchar('\n');	
 return (0);
 }
