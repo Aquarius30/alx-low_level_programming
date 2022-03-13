@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- * main - Entry point                                                           
- * return: Always 0 (success/correct)                                                                 
- */            
+ * main - Entry point
+ * 
+ * Return: Always 0 (success/correct)
+ */           
 int main(void)
-{	
-int n;                                                                                                
-srand(time(0));                                                                                       
+{
+int n;
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n % 10 > 5)
 {
