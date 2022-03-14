@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int comb
-for (comb = 1; comb <= 9; comb++)
+int combination;
+for (combination = 1; combination <= 9; combination++)
 {
-putchar('%x', comb);
+putchar(comb);
 }
 return (0);
 }
