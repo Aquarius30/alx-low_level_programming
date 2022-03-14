@@ -12,7 +12,7 @@ for (hex = 48; hex <= 57; hex++)
 {
 putchar(hex);
 }
-for (hex2 = 97; hex2 <= 122; hex++)
+for (hex2 = 97; hex2 <= 102; hex2++)
 {
 putchar(hex2);
 }
