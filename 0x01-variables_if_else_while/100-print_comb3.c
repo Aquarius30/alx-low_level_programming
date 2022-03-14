@@ -9,7 +9,7 @@ int main(void)
 int combination;
 for (combination = 1; combination <= 9; combination++)
 {
-putchar(comb);
+putchar(combination);
 }
 return (0);
 }
