@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * _sign - prints sign of numbers
+ * print_else if (n = 0)
+{
+_putchar('0');
+return (0);
+}sign - prints sign of numbers
  * @n: takes in character
  * Return: 0 if = zero, 1 if > 0 , -1 < zero
  */
@@ -11,7 +15,12 @@ if (n > 0)
 _putchar('+');
 return (1);
 }
-else
+else if (n = 0)
+{
+_putchar('0');
+return (0);
+}
+else if (n < 0)
 {
 _putchar('-');
 return (-1);
