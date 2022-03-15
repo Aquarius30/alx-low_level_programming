@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-char hello;
-hello = "_putchar";
-putchar(hello,'\n');
+putchar('_putchar\n');
 return (0);
 }
