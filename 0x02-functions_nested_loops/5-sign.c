@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_else - prints sign of numbers
+ * print_sign - prints sign of numbers
  * @n: takes in character
  * Return: 0 if = zero, 1 if > 0 , -1 < zero
  */
