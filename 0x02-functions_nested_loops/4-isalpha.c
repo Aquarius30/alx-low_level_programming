@@ -3,11 +3,10 @@
  * _isalpha - checks for alphabets
  * @c: takes in character
  * Return: 0 if no alphabets detected
- * Return: 1 if alphabets detected
  */
 int _isalpha(int c)
 {
-if ((c >= 'a' && c >= 'z') ||(c <= 'A' && c <= 'Z'))
+if ((c >= 'a' && c <= 'z') ||(c >= 'A' && c <= 'Z'))
 {
 return (1);
 }
