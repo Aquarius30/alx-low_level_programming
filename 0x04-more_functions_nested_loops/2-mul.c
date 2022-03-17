@@ -8,6 +8,9 @@
  */
 int mul(int a, int b)
 {
-	a * b;
+	int product;
+
+	product = a * b;
+	_putchar(product);
 	return (0);
 }
