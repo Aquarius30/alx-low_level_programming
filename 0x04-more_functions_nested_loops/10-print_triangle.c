@@ -3,7 +3,7 @@
  * print_triangle - prints out triangle
  * @size: takes int
  */
-void print_triangle(nt size)
+void print_triangle(int size)
 {
         int i;
         int b;
