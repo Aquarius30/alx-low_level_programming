@@ -23,13 +23,15 @@ void more_numbers(void)
 			{
 				first_num = result / 10;
 				second_num = result % 10;
-				_putchar (first_num + '0');
+				_putchar(first_num + '0');
 			}
-			_putchar (second_num + '0');
+			_putchar(second_num + '0');
+
 			result++;
 		}
 		i++;
 		result = 0;
 		_putchar ('\n');
 	}
+
 }
