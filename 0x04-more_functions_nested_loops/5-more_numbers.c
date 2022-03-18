@@ -6,7 +6,7 @@ void more_numbers(void)
 {
 	int i;
 	int first_num;
-	int second-num;
+	int second_num;
 	int result;
 	
 	i = 0;
