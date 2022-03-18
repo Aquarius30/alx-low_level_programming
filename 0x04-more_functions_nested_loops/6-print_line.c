@@ -6,11 +6,15 @@
 void print_line(int n)
 {
 	int display_;
-	display_ = ( n * "-");
+	i = ( n * "-");
 
 	if (n > 0)
 	{
-		_putchar(display_);
+		for (i = 0; i < n; i++)
+		{
+			_putchar(95);
+		}
+		_putchar('\n');
 	}
 	else
 	{
