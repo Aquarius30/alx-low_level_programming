@@ -4,11 +4,11 @@
  */
 void more_numbers(void)
 {
-	int i;,lJ
+	int i;
 	int first_num;
 	int second_num;
 	int result;
-	
+
 	i = 0;
 	result = 0;
 	while (i < 10)
