@@ -5,7 +5,7 @@
  */
 void print_line(int n)
 {
-	int display_;
+	int i;
 	i = ( n * "-");
 
 	if (n > 0)
