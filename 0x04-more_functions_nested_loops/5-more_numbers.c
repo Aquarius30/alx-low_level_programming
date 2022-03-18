@@ -5,19 +5,31 @@
 void more_numbers(void);
 {
 	int i;
-	int z;
+	int result;
+	int second-num;
+	int first_num;
 	
 	i = 0;
-	while (i <= 10)
+	result = 0;
+	while (i < 10)
 	{
-
-		for (z >= 0; z <= 14; z++)
+		while (result <= 14)
 		{
-			_putchar(z);
+			if (result < 10)
+			{
+				second_num = result;
+			}
+			else
+			{
+				first_num = result / 10;
+				second_num = result % 10;
+				_putchar (first_num + '0');
+			}
+			_putchar (second_num + '0');
+			result++;
 		}
 		i++;
-		_putchar(i);
+		result = 0;
+		_putchar ('\n');
 	}
-		_putchar('\n');
-}
-		
+}	
