@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - prints out fizz buzz
+ * Return: 0 after code succession
+ */
 int main(void)
 {
 	int i;
