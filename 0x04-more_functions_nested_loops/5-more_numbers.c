@@ -4,7 +4,7 @@
  */
 void more_numbers(void)
 {
-	int i;
+	int i;,lJ
 	int first_num;
 	int second_num;
 	int result;
@@ -33,5 +33,4 @@ void more_numbers(void)
 		result = 0;
 		_putchar ('\n');
 	}
-
 }
