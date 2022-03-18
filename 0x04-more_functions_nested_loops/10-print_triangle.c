@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * print_triangle - prints out triangle
+ * @size: takes int
  */
-void print_triangle(void)
+void print_triangle(nt size)
 {
         int i;
         int b;
@@ -17,6 +18,7 @@ void print_triangle(void)
                                 _putchar(35);
                         }
                         i--;
+			_putchar(32);
                         _putchar('\n');
                 }
         }
