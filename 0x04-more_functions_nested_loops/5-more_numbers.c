@@ -2,7 +2,7 @@
 /**
  * more_numbers - prints 10x the numbers
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int i;
 	int second-num;
