@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * task
- */
 int main(void)
 {
 	int num;
