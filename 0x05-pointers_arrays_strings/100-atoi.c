@@ -1,5 +1,14 @@
 #include "main.h"
 /**
+ * is_numerical - check
+ * @n: number
+ * Return: 0
+ */
+int is_numerical(unsigned int n)
+{
+	return (n >= '0' && n <= '9');
+}
+/**
  * _atoi - converts string to integer
  * @s: int
  * Return: 0
